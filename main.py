@@ -17,8 +17,7 @@ def main():
         funzioni.elenca(dati_studenti)
 
     else:
-        user_input = input("Inserisci nome e cognome dello studente che vuoi cercare: ")
-        # funzioni.cerca(studente)
+        funzioni.cerca(dati_studenti)
 
 
 if __name__ == "__main__":
