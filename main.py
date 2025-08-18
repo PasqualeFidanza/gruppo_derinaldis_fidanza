@@ -8,12 +8,12 @@ def main():
 
     user_input = input("seleziona la tua scelta: ")
 
-    if user_input == 1:
+    if user_input == "1":
         studente = input("Inserisci la classe e il nome e cognome dello studente: ")
         # funzioni.aggiungi(dati_studenti, studente)
-    elif user_input == 2:
+    elif user_input == "2":
         print("Ecco la lista delle classi e dei relativi studenti.")
-        # funzioni.elenca(dati_studenti)
+        funzioni.elenca(dati_studenti)
     else:
         user_input = input("Inserisci nome e cognome dello studente che vuoi cercare: ")
         # funzioni.cerca(studente)
